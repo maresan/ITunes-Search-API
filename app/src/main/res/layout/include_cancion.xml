@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:background="@color/colorAccentTranparent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- horizontales -->
+
+    <android.support.constraint.Guideline
+        android:id="@+id/horizontal_0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/horizontal_100"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="1" />
+
+    <!-- verticales -->
+
+    <android.support.constraint.Guideline
+        android:id="@+id/vertical_0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/vertical_80"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.80" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/vertical_100"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="1" />
+
+    <!-- Componentes -->
+
+    <TextView
+        android:id="@+id/id_text_nombre_cancion_actual"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center|left"
+        android:layout_marginStart="8dp"
+        android:textColor="@color/colorBlanco"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/horizontal_100"
+        app:layout_constraintLeft_toLeftOf="@+id/vertical_0"
+        app:layout_constraintRight_toRightOf="@+id/vertical_80"
+        app:layout_constraintTop_toTopOf="@+id/horizontal_0" />
+
+    <ImageButton
+        android:id="@+id/id_buttom_musica_actual"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:layout_constraintBottom_toBottomOf="@+id/horizontal_100"
+        app:layout_constraintLeft_toLeftOf="@+id/vertical_80"
+        app:layout_constraintRight_toRightOf="@+id/vertical_100"
+        app:layout_constraintTop_toTopOf="@+id/horizontal_0" />
+</android.support.constraint.ConstraintLayout>
