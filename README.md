@@ -1,7 +1,7 @@
-# ITunes-Search-API (Yapo.cl test 2019)
-This was the test or challenge that I had to develop to demonstrate my skills and knowledge as an Android Developer.
+# ITunes-Search-API (Yapo.cl challenge 2019)
+This was the challenge that I had to develop to demonstrate my skills and knowledge as an Android Developer.
 
-## Test or challenge requested (email)
+## Challenge
 
 Hi Miguel,
 
