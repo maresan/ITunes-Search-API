@@ -1,16 +1,23 @@
-# ITunes-Search-API
+# ITunes-Search-API (Yapo.cl test 2019)
+This was the test or challenge that I had to develop to demonstrate my skills and knowledge as an Android Developer.
 
-Hola Miguel,
+## Test or challenge requested (email)
 
-Tal como conversamos en la entrevista, te vamos a pedir que escribas una aplicación Android que permita hacer una búsqueda de artistas y reproducción de los resultados en iTunes Search API affiliate.itunes.apple.com/...
+Hi Miguel,
 
-Utiliza un repositorio público Github para el desarrollo de tu solución. Siéntete libre de utilizar las librerías de terceros con las que te sientas más cómodo.
+Just as we discussed in the interview, we're going to ask you to develop an Android application that allows searching for artists and playing the results from the iTunes Search API affiliate.itunes.apple.com/...
 
-Tus prioridades deberían ser:
-- Que la aplicación funcione correctamente y pueda reproducirse el audio de cada resultado.
-- Código limpio, patrones de diseño y arquitectura, ideal usar Clean Architecture o MVP.
-- (Opcional) Agregar funcionalidad de agregar/eliminar un resultado como favorito y listarlos en una vista adicional.
+Please use a public Github repository for the development of your solution. Feel free to use third-party libraries you're comfortable with.
 
-Cuando termines envíanos el link del repositorio para revisarlo, luego te contactaremos para ver como seguimos en el proceso.
+Your priorities should be:
+- Ensuring the application functions correctly and can play the audio for each result.
+- Clean code, design patterns, and architecture; it would be ideal to use Clean Architecture or MVP.
+- (Optional) Adding functionality to add/remove a result as a favorite and listing them in an additional view.
 
-Saludos y buena suerte!
+Once you're finished, send us the repository link for review. We'll then contact you to discuss how to proceed in the process.
+
+Best regards and good luck!
+
+## How I developed the app
+- Architecture: MVP
+- Language: Java
